@@ -66,3 +66,19 @@
 - 주석, public class, main() 메소드, 출력문
 
 ![img](https://user-images.githubusercontent.com/43905552/154266452-71aa15b9-b3f8-4bcd-b3f9-2c407fa08ebf.png)
+
+# Java  프로그램
+
+### 1) 프로그램 작성
+
+- Hello.java로 작성함
+
+### 2) 컴파일 명령
+
+- javac Hello.java
+- 클래스이름.class 가 만들어짐
+
+### 3)  실행 명령
+
+- java Hello
+- Hello 클래스에서 main() 메소드가 실행됨.
