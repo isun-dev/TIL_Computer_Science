@@ -64,3 +64,5 @@
 
 - 대소문자를 구분한다.
 - 주석, public class, main() 메소드, 출력문
+
+![img](https://user-images.githubusercontent.com/43905552/154266452-71aa15b9-b3f8-4bcd-b3f9-2c407fa08ebf.png)
