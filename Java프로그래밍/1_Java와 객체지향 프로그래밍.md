@@ -17,7 +17,7 @@
 ![img](https://user-images.githubusercontent.com/43905552/154262241-f8a72fef-f6bc-4b8f-beb6-1d07b23934ca.png)
 
 - Java 소스 프로그램의 확장자는 .java
-- 바이트 코드
+- 바이트 코드(완전한 기계언어는 )
     - Java 소스를 컴파일한 결과물
     - 확장자는 .class이며 클래스 파일이라고도 함.
     - 자바 플랫폼의 Java VM에서 실행 가능한 코드
