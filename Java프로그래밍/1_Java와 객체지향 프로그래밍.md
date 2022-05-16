@@ -17,7 +17,7 @@
 ![img](https://user-images.githubusercontent.com/43905552/154262241-f8a72fef-f6bc-4b8f-beb6-1d07b23934ca.png)
 
 - Java 소스 프로그램의 확장자는 .java
-- 바이트 코드(완전한 기계언어는 )
+- 바이트 코드(완전한 기계언어는 아니다)
     - Java 소스를 컴파일한 결과물
     - 확장자는 .class이며 클래스 파일이라고도 함.
     - 자바 플랫폼의 Java VM에서 실행 가능한 코드
@@ -29,6 +29,7 @@
     - 실행을 위해 main() 함수가 필요함
 - 애플릿
     - HTML 웹 페이지에 포함되어 웹 브라우저를 통해 실행(요즘에는 익스플로러에서만 실행 가능)
+    - 포함된 클래스 파일은 해당 웹 페이지가 실행되면 서버에서 해당 class 를 호출한다. 
       ![img](https://user-images.githubusercontent.com/43905552/154264452-fca61914-f2a5-4f90-9417-4d1d6415f770.png)
 
 # Java 플랫폼
