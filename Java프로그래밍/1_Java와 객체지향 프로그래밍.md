@@ -47,7 +47,7 @@
     - 자바 프로그램의 실행 환경을 제공하는 가상 기계
     - 자바 프로그램의 구동 엔진
     - 실행에 필요한 사항을 관리
-    - 메모리 정리를 자동으로 수행
+    - 메모리 정리를 자동으로 수행(Garbage Collect)
 
 ![img3](https://user-images.githubusercontent.com/43905552/154264594-e881fdec-4dca-43a0-bff2-e4c9cd8da520.png)
 
