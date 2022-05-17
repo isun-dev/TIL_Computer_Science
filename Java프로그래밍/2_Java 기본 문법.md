@@ -33,3 +33,4 @@
 ### 변수의 종류
 - 인스턴스 변수 : (클래스 정의에서 static이 아닌 필드) 객체가 소유하는 변수
 - 클래스 변수 : (클래스 정의에서 static 필드)
+- 인스턴스 변수와 클래스 변수의 차이: https://sujinhope.github.io/2021/03/03/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%B3%80%EC%88%98,-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%B3%80%EC%88%98-%EC%B0%A8%EC%9D%B4(Static%EB%B3%80%EC%88%98%EC%99%80-Non-Static%EB%B3%80%EC%88%98).html
