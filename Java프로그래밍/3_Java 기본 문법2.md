@@ -39,3 +39,54 @@
 - 2차원 배열일 때
     - 행: 배열이름.length
     - 열: 배열이름[].length
+# 문자열
+
+## String 클래스
+
+- String 클래스는 문자열을 표현하고 처리하기 위한 참조형
+- String 형의 변수는 참조형이거나 기본형 변수처럼 사용할 수 있음 ⇒ 원래라면 new로 생성해주어야 하는데.
+
+### 문자열 리터럴
+
+- 이중 따옴표를 사용함
+    - String aaa = “Java”;
+- 참조형 변수에는 null이라는 특별한 값을 지정할 수 있다.
+    - if(s1 != null) {…}
+
+## 문자열의 + 연산자
+
+- 두 문자열을 연결하는 것
+- (문자열 + 기본형) or (문자열 + 다른 참조형)도 가능
+
+# Scanner 클래스
+
+- 키보드나 파일로부터 다양한 자료를 입력받을 때 사용
+    - 기본적으로 공백 문자로 구분되는 단어 단위로 입력됨
+    - 문자열이나 기본형 값의 입력을 위해 next XXX() 메소드를 제공함
+- 키보드에서 입력을 받는 Scanner 객체
+    - System.in을 이용하여 Scanner 객체를 만들고 사용함
+    - Scanner sc = new Scanner(System.in);
+- Scanner 클래스의 입력용 메소드
+    - boolean hasNext() → 다음 단어가 있으면 true를 반환
+    - String next() → 단어를 읽어 String으로 반환
+    - boolean hasNextInt(), int nextInt()
+    - boolean hasNextDouble(), double nextDouble()
+    - boolean hasNextLine(), String nextLine()
+    
+    ```java
+    import java.util.Scanner;
+    class HelloWorld {
+        public static void main(String[] args) {
+           Scanner sc = new Scanner(System.in);
+           // 123 hello 입력하고 엔터를 누르게 되면,
+           // 123은 int 니까 true를 출력하고
+           // hello String이니까 false를 출력한다.
+           while(sc.hasNextInt()){
+               System.out.println(sc.nextInt());
+           }
+        }
+    }
+    ```
+    
+
+# 클래스 정의
