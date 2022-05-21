@@ -55,11 +55,18 @@
 - 정수: byte, short, int, long
 - 실수: float, double
 
-### 리터럴
-- 상수
-    - 리터럴(실제 데이터 값) 또는 값이 변하지 않는 변수
-        - final int nConst = 3; // 값을 수정할 수 없다. 
-    - 
+## 리터럴
+
+### 상수
+
+- 리터럴(실제 데이터 값) 또는 값이 변하지 않는 변수
+- final int nConst = 3; // 값을 수정할 수 없다.
+
+### 정수형 리터럴
+
+- byte, short, int, long
+- 소문자 I 나, 대문자 L로 끝나면 long형, 나머지는 int
+    - byte와 short는 허용 범위 안에서 int와 호환됨.
 
 
 
